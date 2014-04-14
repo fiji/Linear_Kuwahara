@@ -24,6 +24,11 @@
 		</dependency>
 	</dependencies>
 
+	<ciManagement>
+		<system>Jenkins</system>
+		<url>http://jenkins.imagej.net/job/Linear_Kuwahara/</url>
+	</ciManagement>
+
 	<scm>
 		<connection>scm:git:git://github.com/fiji/Linear_Kuwahara</connection>
 		<developerConnection>scm:git:git@github.com:fiji/Linear_Kuwahara</developerConnection>
