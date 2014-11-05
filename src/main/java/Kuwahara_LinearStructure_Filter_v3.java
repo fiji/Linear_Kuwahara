@@ -1,9 +1,11 @@
-import ij.*;
-import ij.process.*;
-import ij.gui.*;
-import java.awt.*;
-import ij.plugin.filter.*;
-import java.text.NumberFormat;
+import ij.IJ;
+import ij.ImagePlus;
+import ij.ImageStack;
+import ij.gui.GenericDialog;
+import ij.gui.NewImage;
+import ij.plugin.filter.PlugInFilter;
+import ij.process.Blitter;
+import ij.process.ImageProcessor;
 
 /**
  * A version of the Kuwahara filter that uses linear kernels rather than square ones.
